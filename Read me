@@ -1,0 +1,17 @@
+........................................................
+Just abouve getSelectedUser, create a computeBMI arrow function that expects a user parameter, but immediately de-strctures it to the weight, height, and country properties.
+Step 2
+Go back to letsCalculateBMI and get it to obtain the selected value from the SELECT element, pass that value to a getSelectedUser function call, which should return the user object for the selected value. This user object should be assigned to a user variable.
+
+At this point, letsCalculateBMI is ready to claculate the user's BMI. It should do this by calling computeBMI and passing it user. It then sets the return value from invoking computeBMI to a bmi variable, which is finally set as the text content of the PARAGRAPH within the #outcome DIV
+
+Compute BMI as : Each user's height is expressed in feet, so the calculation needs to first convert it to meters. *HINT: * multiple height by 0.3048.
+
+BMEye calculates BMI with an advanced algorithm! BMEye has the notion of countries with the healthiest diet and they are Chad, Sierra Leone, Mali, Gambia, Uganda, Ghana, Senegal, Somalia, Ivory Coast, and Isreal If the user is from any of these countries, then the calculated BMI figure is multipled by 0.82, bringing it down a little.
+
+Step 3
+Following the guide and hints above, get computeBMI to use the user's weight, height, and country to calculate and return the BMI value for the user.
+
+Run your code (click on the play button), select the sample user and see if/how the UI displays the properties and computed BMI for the user.
+
+Double check that your BMI computation is correct. Well, you can bet Gradr will make sure of that!
