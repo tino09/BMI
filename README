@@ -1,3 +1,4 @@
+Andela Nigeria BMI code challenge june 2019
 ........................................................
 Just abouve getSelectedUser, create a computeBMI arrow function that expects a user parameter, but immediately de-strctures it to the weight, height, and country properties.
 Step 2
